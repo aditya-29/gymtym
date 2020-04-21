@@ -127,3 +127,14 @@ a {
   }
 }
 
+@media (max-width:640px) {
+  .nav-items {
+    background-image:
+      linear-gradient(rgba(75, 0, 0, .5), rgba(50, 0, 0, .5)),
+      url(../imgs/mobile-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+}
+
