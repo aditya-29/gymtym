@@ -6,7 +6,7 @@ h3 {
     color:white;
 }
 
-.ml15 {
+/* .ml15 {
     font-weight: 800;
     font-size: 3.8em;
     text-transform: uppercase;
@@ -17,7 +17,7 @@ h3 {
     display: inline-block;
     line-height: 1em;
   }
-
+ */
 .box {
     display:inline-block;
     /* margin: auto; */
