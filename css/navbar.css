@@ -21,6 +21,7 @@ a {
 }
 
 .nav-items {
+  max-height:95vh;
   background-image:
     linear-gradient(rgba(75, 0, 0, .5), rgba(50, 0, 0, .5)),
     url(../imgs/bradcam_2.png);
