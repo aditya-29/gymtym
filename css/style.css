@@ -3,10 +3,109 @@ body {
 }
 
 h3 {
-    color:white;
+    color: white;
 }
 
-/* .ml15 {
+.box {
+    display: inline-block;
+    height: 30rem;
+    border: 3px solid #414141;
+    color: white;
+    column-gap: 40px;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.box:hover {
+    background-color: #414141;
+    border: 3px solid #ff0000;
+}
+
+.box-wrapper {
+    text-align: center;
+    display: block;
+}
+
+.text{
+    width:65%;
+    line-height:20px;
+    justify-content: center;
+}
+
+
+.imgs {
+    width:20%;
+    /* margin-right:5px; */
+    /* text-align: right; */
+    width:40vh;
+    height:60vh;
+    justify-content: center;
+
+}
+#home-img {
+    background:
+    linear-gradient(rgba(75,0,0,0.5), rgba(50,0,100,0.5)),
+    url("../imgs/home.jpg");
+    background-size: cover;
+    float:right;
+}
+
+#about-img {
+    background:
+    linear-gradient(rgba(75,0,0,0.5), rgba(50,0,100,0.5)),
+    url("../imgs/mobile-about.jpg");
+    background-size:cover;
+    float:left;
+}
+
+
+#home-text {
+    float:left;
+}
+
+#about-text {
+    float:right;
+}
+
+@media(max-width:770px) {
+    #home-img, #about-img { 
+        width:70%;
+        /* width:50vh;
+        height:75vh; */
+        float:none;
+        margin:auto;
+        text-align: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    #home-text, #about-text { 
+        /* display:block; */
+        float:none;
+        width: 100%;
+        line-height:20px;
+        justify-content: center;
+    }
+    
+}
+
+
+.nav-items,
+.bottom-slide:not(#sec-pricing) {
+    height: 100vh;
+    justify-content: center;
+    /* margin-bottom:10vh; */
+}
+
+#intro {
+    height: 80vh;
+}
+
+
+
+
+/* 
+.ml15 {
     font-weight: 800;
     font-size: 3.8em;
     text-transform: uppercase;
@@ -16,38 +115,4 @@ h3 {
   .ml15 .word {
     display: inline-block;
     line-height: 1em;
-  }
- */
-.box {
-    display:inline-block;
-    /* margin: auto; */
-    /* width: 15rem; */
-    height: 30rem;
-    border: 3px solid #414141;
-    color:white;
-    column-gap: 40px;
-    padding:20px;
-    margin:5px;
-}
-
-/* .nav-items {
-    background-image: url(../imgs/banner.png));
-} */
-
-.box:hover {
-    background-color: #414141;
-    border: 3px solid #ff0000;
-}
-.box-wrapper {
-    margin:auto;
-    text-align:center;
-    /* margin-right: 50px; */
-    /* width: %100; */
-    display: block ;
-}
-
-.nav-items, .bottom-slide {
-    height:100vh;
-    justify-content: center;
-    /* margin-bottom:10vh; */
-}
+  } */
