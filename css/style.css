@@ -108,7 +108,7 @@ h3 {
         background-repeat: no-repeat;
     }
 
-    #sec-pricing {
+/*     #sec-pricing {
         background-image:
             linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 20, 0.5)),
             url("../imgs/mobile-about.jpg");
@@ -116,7 +116,7 @@ h3 {
         backdrop-filter: blur(10px);
         box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.8);
         background-repeat: no-repeat;
-    }
+    } */
 
     .nav-items,
     .bottom-slide:not(#sec-pricing) {
