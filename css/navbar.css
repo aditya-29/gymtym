@@ -13,22 +13,23 @@ a {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  /* height: 200vh; */
+  /* border: solid green; */
+  /* height: 100vh; */
   position: relative;
   background: #000000;
   text-align: center;
   padding: 0 2em;
 }
 
+
+
 .nav-items {
-  max-height:95vh;
+  /* max-height:90vh; */
   background-image:
     linear-gradient(rgba(75, 0, 0, .5), rgba(50, 0, 0, .5)),
     url(../imgs/bradcam_2.png);
   background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 .nav-items h1,
@@ -55,7 +56,6 @@ a {
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: #000000;
-  ;
   z-index: 10;
 }
 
@@ -93,6 +93,7 @@ a {
 }
 
 .bottom-slider {
+  
   position: absolute;
   bottom: 0;
   width: 0;
@@ -130,12 +131,13 @@ a {
 
 @media (max-width:640px) {
   .nav-items {
+    max-height:95vh;
     background-image:
       linear-gradient(rgba(75, 0, 0, .5), rgba(50, 0, 0, .5)),
       url(../imgs/mobile-banner.jpg);
+    /* background-size: 100vh 10vh; */
     background-size: cover;
     background-repeat: no-repeat;
   }
   
 }
-
