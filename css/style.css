@@ -65,6 +65,7 @@ h3 {
 }
 
 @media(max-width:770px) {
+
     #home-img,
     #about-img {
         background: none;
@@ -87,12 +88,33 @@ h3 {
         justify-content: center;
     }
 
-   .bottom-slide {
+    #sec-home {
         background-image:
-            linear-gradient(rgba(75, 0, 0, 0.5), rgba(50, 0, 100, 0.5)),
+            linear-gradient(rgba(10, 0, 0, 0.6), rgba(10, 0, 20, 0.7)),
             url("../imgs/home.jpg");
         background-size: cover;
+        box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(10px);
+        background-repeat: no-repeat;
+    }
+
+    #sec-about {
+        background-image:
+            linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 20, 0.5)),
+            url("../imgs/mobile-about.jpg");
+        background-size: cover;
+        backdrop-filter: blur(10px);
+        box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.8);
+        background-repeat: no-repeat;
+    }
+
+    #sec-pricing {
+        background-image:
+            linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 20, 0.5)),
+            url("../imgs/mobile-about.jpg");
+        background-size: cover;
+        backdrop-filter: blur(10px);
+        box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.8);
         background-repeat: no-repeat;
     }
 
@@ -113,9 +135,9 @@ h3 {
         float: right;
         margin-right: 4vw;
     }
-    
+
     #about-img {
-    
+
         background:
             linear-gradient(rgba(75, 0, 0, 0.5), rgba(50, 0, 100, 0.5)),
             url("../imgs/mobile-about.jpg");
@@ -123,7 +145,7 @@ h3 {
         box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.8);
         float: left;
         margin-left: 4vw;
-    
+
     }
 
     .nav-items,
