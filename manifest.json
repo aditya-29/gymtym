@@ -34,7 +34,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://github.com/aditya-29/gymtym/blob/master/",
+    "start_url": "./",
     "display": "standalone",
     "orientation": "portrait",
     "theme_color": "#ff0000",
